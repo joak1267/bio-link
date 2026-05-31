@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Bio Link | Enlace Personalizado</title>
+  <meta name="description" content="Mis redes sociales, proyectos y enlaces de contacto en un solo lugar.">
+  
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Mi Bio Link | Enlace Personalizado">
+  <meta property="og:description" content="Mis redes sociales, proyectos y enlaces de contacto en un solo lugar.">
+  <meta property="og:type" content="website">
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Dynamic Gradient Mesh Background -->
+  <div class="mesh-background">
+    <div class="mesh-orb orb-1"></div>
+    <div class="mesh-orb orb-2"></div>
+    <div class="mesh-orb orb-3"></div>
+  </div>
+
+  <div class="overlay-grain"></div>
+
+  <!-- Theme Control Removed -->
+
+  <!-- Main Container -->
+  <main class="biolink-container" id="mainContainer">
+    <!-- Profile Section -->
+    <header class="profile-header">
+      <div class="avatar-container">
+        <img id="profileAvatar" src="avatar.png" alt="Foto de Perfil" class="profile-avatar" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22url(%23grad)%22/><defs><linearGradient id=%22grad%22 x1=%220%25%22 y1=%220%25%22 x2=%22100%25%22 y2=%22100%25%22><stop offset=%220%25%22 style=%22stop-color:%23a855f7;stop-opacity:1%22/><stop offset=%22100%25%22 style=%22stop-color:%23ec4899;stop-opacity:1%22/></linearGradient></defs></svg>'">
+        <div class="avatar-glow"></div>
+      </div>
+      <h1 id="profileName" class="profile-name">Cargando...</h1>
+      <p id="profileBio" class="profile-bio">Cargando biografía...</p>
+    </header>
+
+    <!-- Links Section -->
+    <section class="links-section" id="linksContainer">
+      <!-- Dynamically filled by app.js -->
+    </section>
+
+    <!-- Social Networks Footer -->
+    <footer class="socials-footer" id="socialsContainer">
+      <!-- Dynamically filled by app.js -->
+    </footer>
+    
+    <!-- Powered By Credit (Elegant, subtle) -->
+    <div class="credits">
+      <a href="https://joatech.com" target="_blank" rel="noopener noreferrer">
+        <span>Creado por Joatech</span>
+      </a>
+    </div>
+  </main>
+
+  <!-- Application Logic -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
