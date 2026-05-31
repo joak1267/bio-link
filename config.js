@@ -19,7 +19,7 @@ const CONFIG = {
     },
     { 
       title: "Cotiza tu Web por WhatsApp", 
-      url: "https://wa.me/5491123456789?text=Hola%20Joatech,%20quer%C3%ADa%20consultar%20por%20una%20web", 
+      url: "https://wa.me/5491124673417?text=Hola%20Joatech,%20quer%C3%ADa%20consultar%20por%20una%20web", 
       icon: "message-circle",
       color: "#25d366"
     },
