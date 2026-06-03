@@ -6,7 +6,7 @@ const CONFIG = {
     avatar: "joatech_logo.png"
   },
   socials: [
-    { icon: "facebook", url: "https://facebook.com/joatech", label: "Facebook" },
+    { icon: "facebook", url: "https://www.facebook.com/profile.php?id=61590286841697", label: "Facebook" },
     { icon: "tiktok", url: "https://tiktok.com/@joatech", label: "TikTok" },
     { icon: "mail", url: "mailto:joaquin.apesteguia.tech@gmail.com", label: "Gmail" }
   ],
